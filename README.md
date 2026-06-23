@@ -132,7 +132,7 @@ credit card needed). If the key is missing, `/api/chat` returns a clear 503 inst
 
 _Deployed URLs: 
 
-- **Backend URL:** https://library-management-system-backend-taupe.vercel.app
+- **Backend URL:** https://library-management-system-backend-zeta-five.vercel.app
 - **Frontend URL:** https://library-management-system-frontend-pink.vercel.app
 
 
