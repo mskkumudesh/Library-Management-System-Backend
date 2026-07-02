@@ -17,5 +17,6 @@ router.post("/:id/return", requireRole("librarian"), returnBook);
 router.get("/active", requireRole("librarian"), getActiveLoans);
 router.get("/overdue", requireRole("librarian"), getOverdueLoans);
 router.get("/member/:memberId", getMemberHistory); 
+router.post("/checkout",requireRole("librarian"))
 
 export default router;
